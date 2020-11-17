@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About </title>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body background="bk2.jpg">
+
+<div class="navbar">
+  <a class="active" href="home.html" style ="float:left"><i class="fa fa-fw fa-home"></i> Renzo's</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+  <a href="about.html"><i class="fa fa-fw fa-user"></i> About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Vehicles
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+						<a href="Rav4.html" style="color: black">Toyota Rav4</a>
+                        <a href="Camry.html" style="color: black">Toyota Camry</a>
+                        <a href="Corolla.html" style="color: black">Toyota Corolla</a>
+                        <a href="Noah.html" style="color: black">Toyota Noah</a>
+  </div>
+  </div>
+  <a href="gallery.html"><i class="fa fa-fw fa-search"></i> Gallery</a>
+</div>
+
+
+<div class="container">
+            <!-- Heading of paragraph-->
+            </br></br><h3 style="text-align:center; color: green">Renzo's LTD.</br></br></br></br>
+			Mission</br></br>
+
+                   People Development |
+                   Good Corporate Citizenship |
+                   Service Excellence |
+                   Effective Communication |
+                   Superior Customer Relations</br></br></br></br>
+Values</br></br>
+				 Our goal is to support and achieve our vision, through the cultivation of right behaviour, right action and fair practices.</br></br></br></br>
+               Respect for People</br></br>
+			
+                    •	Show honesty, humility, respect and dignity in everything we do.</br></br>
+                  •	Accept differences of race, culture, language and belief amongst our partners and find unity within that diversity.</br></br>
+                 •	Develop in the workplace the potential of all our people.</br></br></br></br>
+                  
+Challenge with Passion</br></br>
+					•	We will look for new ways of doing things better for our customers.</br></br>
+                      •	We will make continuous improvement a way of life.</br></br>
+                     •	 We will accept change and manage that change.</br></br>
+                      •	We will provide opportunities to utilize our skills, abilities and ideas responsibly.</br></br></br></br>
+
+ Performance Excellence</br></br>
+                   •	We will use information and knowledge effectively to achieve performance excellence and to create a "Customer First" culture.</br></br>
+                   •	We will set clear and focused goals in whatever tasks we undertake.</br></br>
+                   •	We will be aware of people's development potential.</br></br>
+                   •	We will create unity within diversity through teamwork.</br></br>
+                   •	We will measure customer satisfaction continuously by listening to the voice of the customer.</br></br>
+                   •	We will bring the same quality to our work as TMC brings to the product we sell.</br></br>
+                   •	We will look at our resources through the eyes of efficiency and a waste free environment.</br></br></br></br>
+				   
+Company Overview</br></br>
+					Toyota Jamaica Limited (TJAM) is a company with Toyota Tsusho Corporation of Japan having majority share holdings.</br></br>
+                   (TJAM) took over in November 2000, what was previously United Motors Limited, which existed for over 65 years.</br></br>
+                   Operating as a Motor Vehicle Distributorship, (TJAM) retains the right as the sole authorized distributor for Toyota Motor.</br></br>
+				  Corporation (TMC) of Japan and Daihatsu Motor Corporation since February 2005.</br></br></br></br>
+				  
+Sharing the Toyota Values</br></br>
+				The Guiding Principles at Toyota reflect the kind of company that Toyota seeks to be. The Toyota Way   2001 clarifies</br></br>
+					the values and business methods that all employees should embrace in order to carry out the Guiding Principles at Toyota throughout the company's global activities.</br></br></br></br>
+					
+ Vision</br></br>
+				HAPPY, COMPETENT PEOPLE, DOING GREAT THINGS</br></br>
+				Key Elements</br></br>
+            	• Value Creation</br></br>
+							• Stakeholder Satisfaction</br></br>
+							• Sustainability</br></br>
+                            • People Development</br></br></br></br>
+Product Representation</br></br>
+                        • Toyota brand of passenger cars, sports utility vehicles (SUV's), Minibuses</br></br>
+                        • Daihatsu brand of sports utility vehicles (SUV's)
+ </div>
+ <br>
+
+    <!--Social Media Links-->
+    <div>
+        <footer>
+           <a style="float:right; margin-right: 20px" href="https://twitter.com/ToyotaJamaica" class="fa fa-twitter"></a>
+			<a style="float:right ; margin-right: 25px" href="https://www.instagram.com/toyotajamaicaltd/?hl=en" class="fa fa-instagram"></a>
+            <a style="float:right; margin-right: 30px" href="https://www.facebook.com/ToyotaJamaica/" class="fa fa-facebook"></a>
+			<p>Privacy Policy ©2019 RENZO'S CORPORATION. ALL RIGHTS RESERVED</p>
+		</footer>	
+	</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

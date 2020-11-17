@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Renzo Home </title>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body background="bk.jpg">
+
+<div class="navbar">
+  <a class="active" href="home.html" style ="float:left"><i class="fa fa-fw fa-home"></i> Renzo's</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+  <a href="about.html"><i class="fa fa-fw fa-user"></i> About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Vehicles
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+						<a href="Rav4.html" style="color: black">Toyota Rav4</a>
+                        <a href="Camry.html" style="color: black">Toyota Camry</a>
+                        <a href="Corolla.html" style="color: black">Toyota Corolla</a>
+                        <a href="Noah.html" style="color: black">Toyota Noah</a>
+  </div>
+  </div>
+  <a href="gallery.html"><i class="fa fa-fw fa-search"></i> Gallery</a>
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/Gallery/2.jpg" alt="img2" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+	<img src="images/Gallery/3.png" alt="img3" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/Gallery/1.jpg" alt="img1" style="width:100%">
+  </div>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+            <br> 
+    
+ <div class="col-12" style=" background: white">
+        <div class="container">
+            <!-- Heading of paragraph-->
+            <h3 style="text-align:center; color:black">Renzo's LTD.</br></br>
+
+            <h3 style="text-align:center; color:black"> 
+            	Our goal is to support and achieve our vision, through the cultivation of right behaviour, right action and fair practices.</br><br>
+            	People Development | Good Corporate Citizenship | Service Excellence | Effective Communication | Superior Customer Relations
+            </h3>
+        </div>
+ </div>
+
+
+        <div class="container">
+            <h4 style="align-content: center">Top Seller<br>
+                <h4> Best Selling Car</h4>
+            </h4>
+
+            <img scr="Toyota Camry red.jpg">
+
+        </div>
+
+   <!--Social Media Links-->
+    <div>
+        <footer>
+           <a style="float:right; margin-right: 20px" href="https://twitter.com/ToyotaJamaica" class="fa fa-twitter"></a>
+			<a style="float:right ; margin-right: 25px" href="https://www.instagram.com/toyotajamaicaltd/?hl=en" class="fa fa-instagram"></a>
+            <a style="float:right; margin-right: 30px" href="https://www.facebook.com/ToyotaJamaica/" class="fa fa-facebook"></a>
+			<p>Privacy Policy ©2019 RENZO'S CORPORATION. ALL RIGHTS RESERVED</p>
+		</footer>	
+	</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
